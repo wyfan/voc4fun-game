@@ -1,0 +1,46 @@
+.target-page ons-list-item.completed {
+    background-color: yellow;
+}
+
+.target-completed {
+    color: #5cb85c !important;
+    /* http://getbootstrap.com/css/#less-variables-colors */
+}
+
+.target-incompleted {
+    color: #d9534f;
+}
+
+@media screen and (max-width: 550px) {
+    #menu_html .target-completed {
+        color: #F4FF77;
+    }
+    #menu_html .target-incompleted {
+        color: #E08283;
+    }
+}
+
+.target-page .target-help-modal .message {
+    margin: 1rem;
+    white-space: pre;
+}
+
+.target-page .target-input {
+    width: 3rem;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.target-page .recommend {
+    font-size: small;
+    /*border-bottom: 1px dashed #ddd;*/
+}
+
+.target-page ons-row.recommend {
+    text-align: center;
+}
+
+ons-icon[icon="ion-ios-minus-outline"],
+ons-icon[icon="ion-ios-plus-outline"] {
+    cursor: pointer;
+}

@@ -1,0 +1,50 @@
+{
+    "TITLE": "全民樂單字",
+    
+    "TARGET_MENU_TITLE": "目標檢視",
+    "TARGET_MENU_STATUS": "進度完成",
+    "TARGET_MENU_IMCOMPLETE": "尚未完成",
+    "TARGET_MENU_YESTERDAY_TARGET_STATUS": "上一次進度",
+    
+    "LEARN_FLASHCARD_TITLE": "單字學習",
+    "LEARN_FLASHCARD_NOTE_EMPTY": "您還沒有撰寫筆記",
+    "LEARN_FLASHCARD_OTHER_NOTE": "其他人的筆記:",
+    "LEARN_FLASHCARD_GO_PREV": "上一個單字",
+    "LEARN_FLASHCARD_GO_TEST": "進入測驗",
+    "LEARN_FLASHCARD_GO_NEXT": "下一個單字",
+    
+    "TEST_SELECT_TITLE": "測驗",
+    "TEST_SELECT_OPTIONS_HEADING": "請選擇答案：",
+    "TEST_SELECT_HINT_BUTTON": "查看筆記",
+    "TEST_SELECT_ANSWER_CORRECT": "答對了！",
+    "TEST_SELECT_ANSWER_INCORRECT": "答錯了！",
+    "TEST_SELECT_GO_TO_LEARN": "回到單字學習",
+    "TEST_SELECT_NEXT": "下一個測驗",
+    
+    "SETTING": "設定",
+    
+    "SUGGESTION": "提出建議",
+    "SHARE_APP": "分享這個APP",
+    "SHARE_APP_TEXT": "我正在使用全民樂單字，也推薦你來用用看喔。下載網址 https://play.google.com/store/apps/details?id=pulipuli.blogspot.tw.nccu_book_cart",
+    
+    "ABOUT": "關於作者",
+    "AUTHOR_PHONE": "布丁的照片",
+    "AUTHOR_NAME": "布丁布丁吃布丁",
+    "AUTHOR_NAME2": "楊舜閔",
+    "AUTHOR_ID": "Tim (Puudding)",
+    "AUTHOR_ID2": "Shun",
+    "AUTHOR_DESC": "國立政治大學圖書資訊與檔案學研究所博士生，興趣是用程式來讓生活與工作更加便利，但是也應該寫寫論文才能夠順利畢業。",
+    "AUTHOR_DESC2": "國立政治大學圖書資訊與檔案學研究所碩士生，興趣是玩桌遊與猜謎，目前正在解一個名為畢業的謎。",
+    "VISIT_BLOG": "參觀我的部落格",
+    "DONATE": "助我畢業",
+    
+    "EXIT_APP": "離開程式",
+    
+    "ONS_TITLE": "全民樂單字",
+    "ONS_OK": "確定",
+    "ONS_YES": "確定",
+    "ONS_NO": "取消",
+    "ONS_SAVE": "儲存",
+    
+    "ONLY_PHONE_AVAILABLE": "只有手機上才能執行此功能"
+}

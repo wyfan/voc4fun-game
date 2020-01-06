@@ -1,0 +1,183 @@
+
+.split .page--menu-page .menu-close {
+    display: none;
+}
+
+ons-page ons-toolbar ons-toolbar-button .ion-navicon {
+    font-size:32px; 
+    vertical-align:-6px;
+}
+
+ons-page ons-toolbar .right {
+    line-height: 44px;
+    padding-right: 10px; 
+}
+
+#menu_html ons-list-item {
+    cursor: pointer;
+}
+
+/**
+ * 選單背景反白
+ */
+.page--menu-page__background {
+    background-color: #333;
+}
+#menu_html ons-list.ons-list-inner {
+    background-color: transparent;
+}
+
+#menu_html ons-list-item,
+#menu_html ons-row,
+#menu_html ons-toolbar-button .toolbar-button,
+#menu_html ons-toolbar .center,
+#menu_html ons-toolbar .left {
+    color: white;
+}
+
+#menu_html .menu-active {
+    background-color: #666;
+}
+
+#menu_html .bottom-bar {
+    background-color: transparent;
+}
+
+/**
+ * RWD
+ */
+@media screen and (min-width: 550px) {
+    body:not(.main-full) .onsen-sliding-menu__menu {
+        display: block !important;
+        z-index: 3;
+        position: absolute;
+        touch-action: none;
+        transform:none !important;
+    }
+
+    body:not(.main-full) .onsen-sliding-menu__main {
+        width: calc(100% - 200px);
+        left: 200px;
+        z-index: 4;
+    }
+
+    body:not(.main-full) ons-toolbar-button.menu-open,
+    #menu_html ons-toolbar-button.menu-close {
+        display:none;
+    }
+    body:not(.main-full) .onsen-sliding-menu__main.menu-open {
+        left: 0;
+    }
+
+    /**
+     * 選單背景反白
+     */
+    body:not(.main-full) .page--menu-page__background {
+        background-color: #FFF;
+    }
+    body:not(.main-full) #menu_html ons-list-item,
+    body:not(.main-full) #menu_html ons-row,
+    body:not(.main-full) #menu_html ons-toolbar .center,
+    body:not(.main-full) #menu_html ons-toolbar .left {
+        color: black;
+    }
+    
+    body:not(.main-full) #menu_html .menu-active {
+        background-color: #CCC;
+    }
+
+/*    #menu_html ons-toolbar-button .toolbar-button {
+        color: white;
+    }*/
+}   /* @media screen and (min-width: 700px) { */
+
+@media screen and (min-width: 500px) and (max-width: 550px) {
+
+    body:not(.main-full) .onsen-sliding-menu__menu {
+        display: block !important;
+        z-index: 3;
+        position: absolute;
+        touch-action: none;
+        transform:none !important;
+        width: 40px;
+    }
+
+    body:not(.main-full) .onsen-sliding-menu__menu .menu-label {
+        display: none;
+    }
+
+    body:not(.main-full) .onsen-sliding-menu__main {
+        width: calc(100% - 40px);
+        left: 40px;
+        z-index: 4;
+    }
+
+    body:not(.main-full) ons-toolbar-button.menu-open,
+    body:not(.main-full) #menu_html ons-toolbar-button.menu-close {
+        display:none;
+    }
+    
+    body:not(.main-full) .onsen-sliding-menu__main.menu-open {
+        left: 0;
+    }
+    
+    body:not(.main-full) #menu_html ons-toolbar .center,
+    body:not(.main-full) #menu_html ons-toolbar .left,
+    body:not(.main-full) #menu_html .menu-heading,
+    body:not(.main-full) #menu_html .right {
+        display:none;
+    }
+    
+    body:not(.main-full) #menu_html .bottom-bar ons-col {
+        display: none;
+    }
+    
+    body:not(.main-full) #menu_html .bottom-bar {
+        width: 40px;
+    }
+    body:not(.main-full) #menu_html .bottom-bar ons-col:last-child {
+        display: block;
+        text-align: center;
+    }
+    
+    body:not(.main-full) #menu_html ons-list-item {
+        text-align: center;
+        width: 40px;
+        padding: 0;
+    }
+}   /* @media screen and (min-width: 400px) and (max-width: 700px) { */
+
+.ons-loading-placeholder img {
+    position:fixed;
+    top: calc(50% - 60px);
+    left: calc(50% - 60px);
+}
+
+.ons-loading-placeholder .message {
+    position:fixed;
+    top: calc(50% + 60px);
+    text-align: center;
+    width: 100%;
+}
+
+ons-toolbar + .page__background + .page__content {
+    top: 50px;
+}
+
+ons-page .bottom-bar-button {
+    cursor: pointer;
+    text-align: center;
+}
+
+ons-tabbar {
+    z-index: -1;
+}
+
+.right .more-button {
+    cursor: pointer;
+}
+
+.ons-loading-placeholder {
+    position: absolute;
+    z-index: 1;
+}

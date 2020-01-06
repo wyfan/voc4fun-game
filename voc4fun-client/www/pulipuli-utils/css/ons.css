@@ -1,0 +1,15 @@
+.now-loading-modal {
+    display: none;
+}
+
+label.checkbox input[type="checkbox"] {
+    display:none;
+}
+
+one-page .pre {
+    white-space: pre;
+}
+
+.alert-dialog {
+    background-color: white;
+}
